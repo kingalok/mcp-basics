@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "maths": {
+      "command": "/Users/Alok_Sharma/Library/Python/3.9/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/Alok_Sharma/Documents/myrepo/mcp-basics",
+        "run",
+        "maths.py"
+      ]
+    },
+    "basic-notes": {
+      "command": "/Users/Alok_Sharma/Library/Python/3.9/bin/uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/Alok_Sharma/Documents/myrepo/mcp-basics/basic_notes.py"
+      ]
+    }
+  }
+}

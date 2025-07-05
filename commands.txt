@@ -1,0 +1,14 @@
+ 1598  git clone https://github.com/kingalok/mcp-basics.git
+ 1599  cd mcp-basics
+ 1604  uv init .
+ 1605  uv venv .venv
+ 1606  source .venv/bin/activate
+ 1608  uv add "mcp[cli]"
+ 1615  python basic_notes.py
+ 1619  mcp --help
+ 1620  mcp install --help
+ 1621  mcp install basic_notes.py
+ 1622  mcp dev --help
+ 1623  mcp dev basic_notes.py
+ 1624  mcp --help
+ 1625  git status
