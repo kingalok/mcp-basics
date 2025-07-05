@@ -32,7 +32,8 @@ mcp-basics/
 Make sure you have `uv` and `mcp` set up in your environment.
 
 ```bash
-uv run basic_notes.py
+mcp install basic_notes.py
+mcp run basic_notes.py
 ```
 
 Or use it via Claude Desktop with the config below:
